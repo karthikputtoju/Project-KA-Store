@@ -1,0 +1,13 @@
+{
+  "name": "ka-store-playwright-examples",
+  "private": true,
+  "description": "Playwright UI, API and DB tests for the KarthikAutomation Practice Store",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:db": "playwright test tests/db",
+    "report": "playwright show-report"
+  },
+  "devDependencies": { "@playwright/test": "^1.49.0" }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "karthikautomation-practice-store",
+  "version": "2.0.0",
+  "description": "A realistic daily-needs supermarket built for automation practice: UI, API, DB and performance testing. Product designed by Karthik Puttoju.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "reset-db": "node --disable-warning=ExperimentalWarning -e \"require('./src/db').reset(); console.log('Database reset to seed data')\"",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/api/*.test.js"
+  },
+  "engines": { "node": ">=22.13" },
+  "author": "Karthik Puttoju",
+  "license": "MIT"
+}
