@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛒 KarthikAutomation Practice Store
 
 > **A realistic daily-needs supermarket built for automation learning.** Practise UI, API, database and performance testing on one real application.
@@ -143,6 +142,3 @@ ka-store/
 
 ---
 *KarthikAutomation Practice Store · Product designed by Karthik Puttoju · For automation learning only.*
-=======
-# cf
->>>>>>> origin/main
