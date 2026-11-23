@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Frame one</title><link rel="stylesheet" href="/practice/frame.css"></head>
+<body data-testid="frame-one-body">
+  <h2>Inside iframe #frame-one</h2>
+  <form id="frameForm" data-testid="frame-form">
+    <label for="fname">Your name</label><input id="fname" name="name" data-testid="frame-name">
+    <label for="fcity">City</label><select id="fcity" name="city" data-testid="frame-city"><option>Bengaluru</option><option>Hyderabad</option><option>Pune</option></select>
+    <button data-testid="frame-submit">Send to parent</button>
+  </form>
+  <div class="out" id="out" data-testid="frame-output"></div>
+  <script src="/practice/frame.js"></script>
+</body></html>

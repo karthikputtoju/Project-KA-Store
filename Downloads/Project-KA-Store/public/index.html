@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KarthikAutomation Practice Store</title>
+  <meta name="description" content="KarthikAutomation Practice Store: a realistic daily-needs supermarket built for automation learning (UI, API, DB and performance testing). Designed by Karthik Puttoju.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#app" data-testid="skip-link">Skip to content</a>
+  <div class="ribbon" role="note" data-testid="learning-banner">
+    <span class="pulse-dot" aria-hidden="true"></span>
+    <span>Learning website for <b>automation testing practice only</b>. No real products, payments or deliveries.</span>
+  </div>
+  <div class="bg" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span></div>
+
+  <header class="topbar" data-testid="header">
+    <a class="brand" href="#/" data-testid="nav-home" aria-label="KarthikAutomation home">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0a0a0a"/><path d="M17 14v36M17 33l17-19M24 26l12 24" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path class="mark-play" d="M38 22l12 10-12 10z" fill="#e10600"/></svg>
+      <span class="brand-text" data-testid="brand-logo">Karthik<span>Automation</span><small>Practice Store</small></span>
+    </a>
+    <button class="loc-pill" id="locPill" data-testid="delivery-location" type="button">Delivering to<b id="locText">Select address</b></button>
+    <form class="search" id="searchForm" role="search" data-testid="search-form" autocomplete="off">
+      <label for="searchInput" class="sr-only">Search products</label>
+      <input id="searchInput" name="q" type="search" placeholder="Search for milk, atta, bananas…" data-testid="search-input" role="combobox" aria-expanded="false" aria-controls="suggestBox" aria-autocomplete="list">
+      <button type="submit" class="icon-btn" aria-label="Search" data-testid="search-submit"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <div class="suggest" id="suggestBox" role="listbox" data-testid="search-suggestions" hidden></div>
+    </form>
+    <nav class="nav" aria-label="Main">
+      <a href="#/practice" data-testid="nav-practice">Practice</a>
+      <a href="#/api-docs" data-testid="nav-api-docs">API</a>
+      <a href="#/coverage" data-testid="nav-coverage">Coverage</a>
+      <span id="authSlot"></span>
+      <a href="#/wishlist" class="icon-link" data-testid="nav-wishlist" aria-label="Wishlist"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.6-9.5 9-9.5 9z"/></svg></a>
+      <a href="#/cart" class="cart-link" id="cartLink" data-testid="nav-cart" aria-label="Cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20 8H6"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+        <span class="badge" id="cartBadge" data-testid="cart-count" aria-live="polite">0</span>
+      </a>
+    </nav>
+  </header>
+  <nav class="catbar" aria-label="Categories" data-testid="category-bar"><div class="catbar-inner" id="catbar"></div></nav>
+
+  <main id="app" tabindex="-1" data-testid="main"></main>
+
+  <footer class="footer" data-testid="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#fff"/><path d="M17 14v36M17 33l17-19M24 26l12 24" stroke="#0a0a0a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 22l12 10-12 10z" fill="#e10600"/></svg>
+        <div><p class="footer-logo">Karthik<span>Automation</span></p><p class="footer-tag">Practice. Automate. Master.</p></div>
+      </div>
+      <div class="footer-col">
+        <h4>About this site</h4>
+        <p data-testid="footer-disclaimer">A realistic <b>daily-needs store</b> built for <b>automation testing practice only</b>. Practise UI (Cypress, Playwright, Selenium), API, database and performance testing. Nothing here is for sale.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Testing hub</h4>
+        <p><a href="#/coverage" data-testid="footer-coverage">Test coverage</a><br><a href="#/coverage/plan">Test plan</a><br><a href="#/coverage/cases">Test cases</a><br><a href="#/coverage/bugs">Bug reporting</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice tools</h4>
+        <p><a href="#/practice">Practice playground</a><br><a href="#/api-docs">API docs</a><br><a href="#/performance" data-testid="footer-performance">Performance testing</a><br><a href="#/security" data-testid="footer-security">Security testing</a><br><a href="#/db">DB explorer</a> · <a href="#/mailbox">Test mailbox</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-testid="footer-credit">Product designed by <strong>Karthik Puttoju</strong></p>
+      <p>© <span id="year">2026</span> KarthikAutomation · For automation learning only</p>
+    </div>
+  </footer>
+
+  <div id="modalRoot"></div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite" data-testid="toasts"></div>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
