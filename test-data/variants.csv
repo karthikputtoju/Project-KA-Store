@@ -1,0 +1,66 @@
+variantId,productId,name
+1,1,Banana Robusta
+2,1,Banana Robusta
+3,2,Apple Shimla
+4,2,Apple Shimla
+5,3,Tomato Hybrid
+6,3,Tomato Hybrid
+7,4,Onion
+8,4,Onion
+9,5,Potato
+10,5,Potato
+11,6,Carrot Ooty
+12,7,Spinach (Palak)
+14,9,Lemon
+15,10,Green Chilli
+17,12,Cucumber
+18,13,Toned Milk
+19,13,Toned Milk
+20,14,Fresh Curd
+21,15,Malai Paneer
+22,16,Salted Butter
+24,17,Cheese Slices
+25,18,Brown Bread
+26,19,Farm Eggs
+27,19,Farm Eggs
+30,21,Whole Wheat Atta
+31,21,Whole Wheat Atta
+32,22,Basmati Rice
+34,23,Toor Dal
+35,24,Sugar
+36,25,Iodised Salt
+37,26,Sunflower Oil
+39,27,Cow Ghee
+41,28,Turmeric Powder
+42,29,Classic Salted Chips
+43,29,Classic Salted Chips
+44,30,Choco Chip Cookies
+45,31,Aloo Bhujia
+46,32,Dark Chocolate 70%
+47,33,Masala Instant Noodles
+48,33,Masala Instant Noodles
+49,34,Butter Popcorn
+50,35,Assam Tea
+51,35,Assam Tea
+52,36,Instant Coffee
+53,37,Orange Juice
+54,38,Cola Soft Drink
+55,38,Cola Soft Drink
+56,39,Mineral Water
+57,39,Mineral Water
+59,41,Detergent Powder
+61,42,Dishwash Liquid
+62,43,Floor Cleaner
+63,44,Toilet Cleaner
+64,45,Garbage Bags (Medium)
+65,46,Toilet Tissue Rolls
+66,47,Fresh Mint Toothpaste
+67,48,Anti-Dandruff Shampoo
+68,48,Anti-Dandruff Shampoo
+69,49,Neem Bath Soap
+70,50,Hand Wash Refill
+71,51,Aloe Face Wash
+72,52,Baby Diaper Pants
+75,53,Baby Wipes
+76,54,Baby Cereal (Rice)
+77,55,Baby Lotion
