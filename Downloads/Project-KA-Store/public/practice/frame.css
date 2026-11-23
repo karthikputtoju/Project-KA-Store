@@ -1,6 +1,0 @@
-body{font-family:'Segoe UI',system-ui,sans-serif;margin:0;padding:16px;color:#0a0a0a;background:#fff}
-h2{margin:0 0 10px;font-size:1rem;color:#e10600}
-input,select{padding:8px 10px;border:1px solid #cfcfd6;border-radius:8px;font:inherit;width:100%;box-sizing:border-box;margin-bottom:8px}
-button{background:#e10600;color:#fff;border:0;padding:9px 16px;border-radius:8px;font-weight:700;cursor:pointer}
-iframe{width:100%;min-height:170px;border:2px dashed #e10600;border-radius:10px}
-.out{margin-top:8px;font-family:monospace;font-size:.85rem}

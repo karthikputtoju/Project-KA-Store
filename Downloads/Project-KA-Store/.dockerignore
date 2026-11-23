@@ -1,9 +1,0 @@
-node_modules/
-data/
-test-results/
-playwright-report/
-cypress/screenshots/
-cypress/videos/
-*.log
-.DS_Store
-examples/
