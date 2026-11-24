@@ -28,7 +28,7 @@ Open **http://localhost:3000**. The database file `data/store.db` is created and
 | `npm test` | Run the 46 built-in API + DB tests (uses a temporary database) |
 | `QUIET=1 npm start` | Start without request logs (use this for load tests) |
 
-Docker: `docker build -t ka-store . && docker run -p 3000:3000 ka-store`
+Docker: `docker run -d -p 3000:3000 -v ka-data:/app/data pkarthik9/karthikautomation-store:latest`
 
 ## 2. Practice accounts & test data
 
