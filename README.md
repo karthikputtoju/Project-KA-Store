@@ -3,7 +3,7 @@
 > **A realistic daily-needs supermarket built for automation learning.** Practise UI, API, database and performance testing on one real application.
 > Product designed by **Karthik Puttoju**. For learning only: no real products, payments or deliveries.
 
-It works like BigBasket or Blinkit. You can register, log in, search groceries, add pack sizes to your cart, apply coupons, pick a delivery slot, and pay by UPI, card or cash on delivery. After that you can track, cancel, return and reorder orders. Store managers get a full admin panel.
+You can register, log in, search groceries, add pack sizes to your cart, apply coupons, pick a delivery slot, and pay by UPI, card or cash on delivery. After that you can track, cancel, return and reorder orders. Store managers get a full admin panel.
 
 All of it runs on your laptop with **zero npm dependencies**, backed by a **real SQLite database**.
 
